@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiciones</title>
+</head>
+<body>
+    <dl>
+
+        <dt style="color:#F2A535, align=center, font-family=Times New Roman, font size= 18px,px">Ansiedad.</dt>
+        
+        <dd> Es un sentimiento de miedo, temor e inquietud. Puede hacer que<br> 
+        sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción<br> 
+        normal al estrés</dd>
+
+        <img src="ansiedad.jpg" alt="Ansiedad">
+        
+        <dt style="color:#F2A535, align=center, font-family=Times New Roman, font size= 18px,px">Depresión </dt>
+        
+        <dd>Es un trastorno mental caracterizado fundamentalmente por un bajo estado<br>
+        de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del<br>
+        grado de actividad y del pensamiento.</dt>
+
+        
+        <img src="depresión.jpg" alt="Depresión">
+
+        <dt style="color:#F2A535, align=center, font-family=Times New Roman, font size= 18px,px, weight=bolder">Transtorno de personalidad<dt>
+        <dd>Es un tipo de trastorno mental en el cual tienen un patrón de pensamiento,<br> 
+        desempeño y comportamiento marcado y poco saludable.</dd>
+
+        <img src="transtorno de personalidad.jpg" alt="Transtorno de personalidad">
+
+        </dl>
+        <table border="1">
+
+            <tr>
+            
+            <th>Enfermedad</th><th>Síntomas</th>
+            
+            </tr>
+            
+            <tr>
+            
+            <td>Ansiedad</td><td>Preocupación excesiva, agitación, aumento de frecuencia cardíaca</td>
+            
+            </tr>
+            
+            <tr>
+            
+            <td>Depresión</td><td>Sentimientos de tristeza o desánimo, aumento de sueño y pocas ganas de comer</td>
+            
+            </tr>
+            
+            <tr>
+            
+            <td>Transtorno de personalidad</td><td>Altibajos y cambios radicales de humor, falta de confianza</td>
+            
+            <form action="registrardatos.php" method="post">
+                Ingrese su nombre:
+                <input type="text" name="nombre" size="30"><br>
+                Ha sido diagnosticado con alguna de estas enfermedades?
+                <br>
+                <input type="checkbox" name="Ansiedad">Ansiedad<br>
+                <input type="checkbox" name="Depresión">Depresión<br>
+                <input type="checkbox" name="Transtorno de personalidad">Transtorno de personalidad<br>
+            </form>
+            <br>
+            <form action="registrardatos.php" method="post">
+                Ha sentido con frecuencia alguno de estos de estos síntomas? (Presione Ctrl para seleccionar varios síntomas)<br>
+                <select name="sintomas[]" size="4" multiple>
+                  <option value="1">Tristeza</option>
+                  <option value="2">Desánimo</option>
+                  <option value="3">Preocupación excesiva</option>
+                  <option value="4">Agitación</option>
+                  <option value="5">Cambiso radicales de humor</option>
+                  <option value="6">Baja autoestima</option>
+                  <option value="7">Aumento de frecuencia cardíaca</option>
+                  <option value="8">Poco apetito</option>
+                </select>
+              
+              
+              
+</body>
+</html>
